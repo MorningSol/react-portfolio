@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <header>
+        <header className='py-5'>
             <h1>Patrick Laplante</h1>
         </header>
     );

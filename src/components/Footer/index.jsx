@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer>
+        <footer className='py-5 fixed-bottom'>
             
         </footer>
     );

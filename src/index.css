@@ -23,15 +23,13 @@ body {
 
 header {
   background-color: var(--secondary);
-  padding: 50px;
+  
 }
 main {
   margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
 }
 
 footer {
   background-color: var(--secondary);
-  padding: 50px;
 }
