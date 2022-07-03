@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className='py-5 '>
+        <footer className='mt-auto py-5'>
             
         </footer>
     );

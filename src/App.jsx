@@ -7,7 +7,7 @@ import ContactForm from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='d-flex flex-column min-vh-100'>
     <Header></Header>  
     <main>
       <About></About>
