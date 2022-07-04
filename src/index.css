@@ -24,13 +24,12 @@ header {
   background-color: var(--secondary);
   
 }
-main {
-  margin: 0 auto;
-	max-width: 90%;
-}
+
 
 footer {
   background-color: var(--secondary);
 }
 
-
+nav {
+  background-color: var(--tertiary);
+}

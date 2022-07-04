@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Project() {
+function Resume() {
     return (
         <div className=''>
             
@@ -8,6 +8,4 @@ function Project() {
     );
 }
 
-export default Project;
-
-
+export default Resume;
