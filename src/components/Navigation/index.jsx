@@ -4,7 +4,7 @@ import React from 'react';
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-        <nav className="navbar navbar-expand-lg fs-5 mb-5 py-2">
+        <nav className="navbar navbar-expand-lg fs-5 mb-4 py-2">
             <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">

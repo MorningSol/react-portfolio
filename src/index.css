@@ -33,3 +33,7 @@ footer {
 nav {
   background-color: var(--tertiary);
 }
+
+.bg-sec {
+  background-color: var(--secondary);
+}
