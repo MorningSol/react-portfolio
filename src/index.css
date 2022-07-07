@@ -34,6 +34,11 @@ nav {
   background-color: var(--tertiary);
 }
 
-.bg-sec {
+.contact-form {
   background-color: var(--secondary);
+}
+.contact-form button {
+  background-color: var(--tertiary);
+  color: var(--quaternary);
+  
 }

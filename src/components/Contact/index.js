@@ -38,7 +38,7 @@ function ContactForm() {
     return (
         <section className="container">
             <div className="row justify-content-center">
-                <form className='border border-3 border-light rounded p-4 shadow-lg col-6' id="contact-form" onSubmit={handleSubmit}>
+                <form className='border border-3 border-light rounded-4 p-4 shadow-lg col-6 contact-form' id="contact-form" onSubmit={handleSubmit}>
                 <h2 className="mb-4">Contact me</h2>
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name:</label>
@@ -58,7 +58,7 @@ function ContactForm() {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button className='btn btn-secondary' type="submit">Submit</button>
+                    <button className='btn btn-lg' type="submit">Submit</button>
                 </form>
             </div>
         </section>
