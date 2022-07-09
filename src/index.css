@@ -43,3 +43,15 @@ nav {
   
 }
 
+.project {
+  opacity: 85%;
+}
+
+.project:hover {
+  opacity: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}

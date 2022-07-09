@@ -1,4 +1,6 @@
 import React from 'react';
+import MyResume from '../../assets/resume.pdf';
+
 
 function Resume() {
     return (
@@ -27,7 +29,11 @@ function Resume() {
                     <li>GraphQL</li>
 					<li>Progressive Web Applications (PWA)</li>
 				</ul>
+                <a href={MyResume} download="Resume-Patrick">Resume Download</a>
         </div>
+        
+
+        
     );
 }
 
