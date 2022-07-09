@@ -22,9 +22,15 @@ body {
 
 header {
   background-color: var(--secondary);
-  
+   
 }
 
+h1 {
+  color: var(--secondary);
+  background-color: var(--tertiary);
+  font-weight: bolder;
+  font-size: 70px;
+}
 
 footer {
   background-color: var(--secondary);
@@ -54,4 +60,34 @@ nav {
 a {
   text-decoration: none;
   font-weight: bold;
+}
+
+@media screen and (max-width: 633px) {
+  h1 {
+    
+    font-size: 50px;
+  }
+  
+}
+
+@media screen and (max-width: 485px) {
+  h1 {
+    
+    font-size: 40px;
+  }
+  
+}
+
+@media screen and (max-width: 408px) {
+  h1 {
+    
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 322px) {
+  h1 {
+    
+    font-size: 25px;
+  }
 }

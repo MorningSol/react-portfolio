@@ -6,7 +6,7 @@ import Surf from '../../assets/img/rafael-leao.jpg';
 
 function Project() {
     return (
-        <section className="m-5 mt-3">
+        <section className="m-5">
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col project">
                     <div className="card bg-dark text-white ratio ratio-16x9 border border-3 border-dark rounded p-4">
@@ -96,6 +96,51 @@ function Project() {
                     </div>
                 </div>     
                 
+                <div className="col project">
+                    <div  className="card bg-dark text-white ratio ratio-16x9 border border-3 border-dark rounded p-4">
+                    <img src={Surf} className="card-img" alt="Surf project"></img>
+                        <div className="card-img-overlay">
+                            <h3 className="card-title">no name</h3>
+                            <p className="card-text">HTML/CSS</p>
+                            <button className="stretched-link opacity-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNN" aria-expanded="false" aria-controls="collapseNN">
+                            </button>
+                        </div> 
+                    </div> 
+                    <div className='collapse' id="collapseNN">
+                        <div className='d-flex justify-content-evenly'>
+                            <a className='link-dark m-2' href='https://github.com/haleytelega/Book-Beans' rel='noreferrer' target="_blank">
+                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                            </a>
+                            <a className='link-dark m-2' href='https://morningsol.github.io/run-buddy/' rel='noreferrer' target="_blank">
+                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                            </a>   
+                        </div>
+                    </div>
+                </div>     
+
+                <div className="col project">
+                    <div  className="card bg-dark text-white ratio ratio-16x9 border border-3 border-dark rounded p-4">
+                    <img src={Surf} className="card-img" alt="Surf project"></img>
+                        <div className="card-img-overlay">
+                            <h3 className="card-title">no name</h3>
+                            <p className="card-text">HTML/CSS</p>
+                            <button className="stretched-link opacity-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNN" aria-expanded="false" aria-controls="collapseNN">
+                            </button>
+                        </div> 
+                    </div> 
+
+                    <div className='collapse' id="collapseNN">
+                        <div className='d-flex justify-content-evenly'>
+                            <a className='link-dark m-2' href='https://github.com/haleytelega/Book-Beans' rel='noreferrer' target="_blank">
+                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                            </a>
+                            <a className='link-dark m-2' href='https://morningsol.github.io/run-buddy/' rel='noreferrer' target="_blank">
+                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                            </a>   
+                        </div>
+                    </div>
+                </div>     
+
             </div>
         </section>
     );

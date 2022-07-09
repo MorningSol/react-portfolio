@@ -3,7 +3,7 @@ import Avatar from '../../assets/img/avatar.png'
 
 function About() {
     return (
-        <section className="card m-5 border border-3 border-dark rounded-5 p-4 shadow-lg">
+        <section className="card m-2 m-sm-5 border border-3 border-dark rounded-5 p-4 shadow-lg">
             <div className="row g-0">
                 <div className="col-md-4">
                     <img src={Avatar} className="img-fluid rounded-5" alt="..."/> 

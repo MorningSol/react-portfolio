@@ -4,7 +4,7 @@ import React from 'react';
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-        <nav className="navbar navbar-expand-lg fs-5 mb-4 py-2">
+        <nav className="navbar navbar-expand-sm fs-5  py-2 border-top  border-5 border-dark">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

@@ -5,10 +5,10 @@ import MyResume from '../../assets/resume.pdf';
 function Resume() {
     return (
 		
-        <div className='container mt-5'>
-			<div className='row justify-content-center'>
-				<div className='col-12 col-sm-3 m-3'>
-					<h5>Back-End Proficiencies</h5>
+        <div className='container-fluid'>
+			<div className='row justify-content-center m-5 shadow-lg py-5'>
+				<div className='col-12 col-sm-4 mt-3'>
+					<h4>Back-End Proficiencies</h4>
 					<ul>
 						<li>APIs</li>
 						<li>NodeJS</li>
@@ -23,8 +23,8 @@ function Resume() {
 					</ul>
 				</div>
 
-				<div className='col-12 col-sm-3 m-3'>
-					<h5>Front-End Proficiencies</h5>
+				<div className='col-12 col-sm-4 mt-3'>
+					<h4>Front-End Proficiencies</h4>
 					<ul>
 						<li>HTML</li>
 						<li>CSS</li>
@@ -36,8 +36,8 @@ function Resume() {
 					</ul>
 				</div>
 				
-				<div className='col-12 col-sm-3 m-3'>
-					<a href={MyResume} download="Resume-Patrick"><i className="fa-solid fa-file-arrow-down fa-2x"></i> Download Resume</a>
+				<div className='col-12 col-sm-3 mb-5 align-self-center order-first order-sm-last text-center'>
+					<a className='link-warning fs-4' href={MyResume} download="Resume-Patrick"><i className="fa-solid fa-file-arrow-down fa-2x"></i> Resume</a>
 				</div>
 
             </div>

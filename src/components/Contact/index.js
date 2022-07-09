@@ -36,9 +36,9 @@ function ContactForm() {
       };
 
     return (
-        <section className="container">
-            <div className="row justify-content-center">
-                <form className='border border-3 border-light rounded-4 p-4 shadow-lg col-6 contact-form' id="contact-form" onSubmit={handleSubmit}>
+        <section className="container-fluid">
+            <div className="row justify-content-center mx-2 my-4">
+                <form className=' col-12 col-sm-8 col-md-7 col-lg-6 border border-3 border-light rounded-4 p-4 shadow-lg contact-form' id="contact-form" onSubmit={handleSubmit}>
                 <h2 className="mb-4">Contact me</h2>
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name:</label>
