@@ -29,7 +29,7 @@ Simply click on the Deployed GitHub Page link to take a look!
 
 [GitHub Repository](https://github.com/MorningSol/react-portfolio)
 
-[Deployed Github Page]()
+[Deployed Github Page](http://MorningSol.github.io//react-portfolio)
 
 &nbsp;
 
