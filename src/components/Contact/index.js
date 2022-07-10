@@ -37,8 +37,8 @@ function ContactForm() {
 
     return (
         <section className="container-fluid">
-            <div className="row justify-content-center mx-2 my-4">
-                <form className=' col-12 col-sm-8 col-md-7 col-lg-6 border border-3 border-light rounded-4 p-4 shadow-lg contact-form' id="contact-form" onSubmit={handleSubmit}>
+            <div className="row justify-content-center mx-2 my-5">
+                <form className=' col-12 col-sm-8 col-md-7 col-lg-6 border border-2 border-light rounded-4 p-4 shadow-lg contact-form' id="contact-form" onSubmit={handleSubmit}>
                 <h2 className="mb-4">Contact me</h2>
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name:</label>
@@ -50,7 +50,7 @@ function ContactForm() {
                     </div>
                     <div className="mb-3">
                         <label className="form-label" htmlFor="message">Message:</label>
-                        <textarea className="form-control" name="message" rows="5" defaultValue={message} onBlur={handleChange}  />
+                        <textarea className="form-control" name="message" rows="3" defaultValue={message} onBlur={handleChange}  />
                     </div>
 
                     {errorMessage && (
@@ -58,7 +58,9 @@ function ContactForm() {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button className='btn btn-lg' type="submit">Submit</button>
+                    <div className='d-flex justify-content-end'>
+                      <button className='btn btn-warning btn-lg me-3 mt-2 fw-bold' type="submit">Submit</button>
+                    </div>
                 </form>
             </div>
         </section>

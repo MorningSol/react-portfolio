@@ -27,7 +27,7 @@ header {
 
 h1 {
   color: var(--secondary);
-  background-color: var(--tertiary);
+  background-color: var(--quaternary);
   font-weight: bolder;
   font-size: 70px;
 }
@@ -40,13 +40,14 @@ nav {
   background-color: var(--tertiary);
 }
 
-.contact-form {
-  background-color: var(--secondary);
+.header-border {
+  border-bottom: 3px solid var(--quaternary);
 }
-.contact-form button {
-  background-color: var(--tertiary);
-  color: var(--quaternary);
-  
+
+
+label {
+
+  font-weight: bold;
 }
 
 .project {
@@ -55,6 +56,14 @@ nav {
 
 .project:hover {
   opacity: 100%;
+}
+
+.text-shadow {
+  text-shadow: -5px 5px 10px black;
+  font-style: oblique;
+  font-weight: bold;
+  color: var(--primary);
+  
 }
 
 a {
