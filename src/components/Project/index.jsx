@@ -23,10 +23,10 @@ function Project() {
                     <div className='collapse' id="collapseConcertium" >
                         <div className='d-flex justify-content-evenly'>
                             <a className='link-dark m-2' href='https://github.com/MorningSol/concertium' rel='noreferrer' target="_blank">
-                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                                <i className="fa-brands fa-github fa-3x"></i> Repository
                             </a>
                             <a className='link-dark m-2' href='https://morningsol.github.io/concertium/' rel='noreferrer' target="_blank" >
-                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                                <i className="fa-regular fa-circle-play fa-3x"></i> App
                             </a>
                         </div>    
                     </div>
@@ -45,10 +45,10 @@ function Project() {
                     <div className='collapse' id="collapseBB" >
                         <div className='d-flex justify-content-evenly'>
                             <a className='link-dark m-2' href='https://github.com/haleytelega/Book-Beans' rel='noreferrer' target="_blank">
-                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                                <i className="fa-brands fa-github fa-3x"></i> Repository
                             </a>
                             <a className='link-dark m-2' href='https://book-and-beans.herokuapp.com/' rel='noreferrer' target="_blank">
-                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                                <i className="fa-regular fa-circle-play fa-3x"></i> App
                             </a> 
                         </div>   
                     </div>
@@ -67,10 +67,10 @@ function Project() {
                     <div className='collapse' id="collapseRunBuddy" >
                         <div className='d-flex justify-content-evenly'>
                             <a className='link-dark m-2' href='https://github.com/MorningSol/run-buddy' rel='noreferrer' target="_blank">
-                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                                <i className="fa-brands fa-github fa-3x"></i> Repository
                             </a>
                             <a className='link-dark m-2' href='https://morningsol.github.io/run-buddy/' rel='noreferrer' target="_blank">
-                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                                <i className="fa-regular fa-circle-play fa-3x"></i> App
                             </a>  
                         </div>  
                     </div>
@@ -89,10 +89,10 @@ function Project() {
                     <div className='collapse' id="collapseBT">
                         <div className='d-flex justify-content-evenly'>
                             <a className='link-dark m-2' href='https://github.com/MorningSol/pwa-budget-tracker' rel='noreferrer' target="_blank">
-                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                                <i className="fa-brands fa-github fa-3x"></i> Repository
                             </a>
                             <a className='link-dark m-2' href='https://immense-basin-46853.herokuapp.com/' rel='noreferrer' target="_blank">
-                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                                <i className="fa-regular fa-circle-play fa-3x"></i> App
                             </a>   
                         </div>
                     </div>
@@ -111,10 +111,10 @@ function Project() {
                     <div className='collapse' id="collapsePP">
                         <div className='d-flex justify-content-evenly'>
                             <a className='link-dark m-2' href='https://github.com/MorningSol/photo-port' rel='noreferrer' target="_blank">
-                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                                <i className="fa-brands fa-github fa-3x"></i> Repository
                             </a>
                             <a className='link-dark m-2' href='https://morningsol.github.io/photo-port/' rel='noreferrer' target="_blank">
-                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                                <i className="fa-regular fa-circle-play fa-3x"></i> App
                             </a>   
                         </div>
                     </div>
@@ -134,10 +134,10 @@ function Project() {
                     <div className='collapse' id="collapseDT">
                         <div className='d-flex justify-content-evenly'>
                             <a className='link-dark m-2' href='https://github.com/MorningSol/deep-thoughts' rel='noreferrer' target="_blank">
-                                <i className="fa-brands fa-github fa-3x"></i> Github Repo
+                                <i className="fa-brands fa-github fa-3x"></i> Repository
                             </a>
                             <a className='link-dark m-2' href='https://guarded-plateau-85591.herokuapp.com/' rel='noreferrer' target="_blank">
-                                <i className="fa-regular fa-circle-play fa-3x"></i> Deployed App
+                                <i className="fa-regular fa-circle-play fa-3x"></i> App
                             </a>   
                         </div>
                     </div>
