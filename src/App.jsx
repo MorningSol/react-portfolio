@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import ContactForm from './components/Contact';
-import ProjectList from './components/ProjectList';
+import Projects from './components/Projects';
 import Nav from './components/Navigation';
 import Resume from './components/Resume';
 
@@ -14,7 +14,7 @@ function App() {
           return <About />;
         }
         if (currentPage === 'Project') {
-          return <ProjectList />;
+          return <Projects />;
         }
         if (currentPage === 'Contact') {
           return <ContactForm />;
