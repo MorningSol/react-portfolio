@@ -18,6 +18,13 @@ const projects = [
         deployed: 'https://book-and-beans.herokuapp.com/',
     },
     {
+        id: 'SH',
+        title: 'SquabbleHub',
+        tech: 'MERN',
+        github: 'https://github.com/philmcgarty/squabblehub',
+        deployed: 'https://mighty-meadow-52025.herokuapp.com/',
+    },
+    {
         id: 'RB',
         title: 'Run Buddy',
         tech: 'HTML/CSS',
@@ -30,13 +37,6 @@ const projects = [
         tech: 'IndexedDB/PWA/Manifest',
         github: 'https://github.com/MorningSol/pwa-budget-tracker',
         deployed: 'https://immense-basin-46853.herokuapp.com/',
-    },
-    {
-        id: 'PP',
-        title: 'Photograpy Portfolio',
-        tech: 'REACT',
-        github: 'https://github.com/MorningSol/photo-port',
-        deployed: 'https://morningsol.github.io/photo-port/',
     },
     {
         id: 'DT',

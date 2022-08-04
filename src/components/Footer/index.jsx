@@ -15,7 +15,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className='m-3 p-0 col-2 col-md-1'>
-                        <a className='link-dark' rel='noreferrer' href="https://ca.linkedin.com/" target="_blank">
+                        <a className='link-dark' rel='noreferrer' href="https://www.linkedin.com/in/patrick-laplante-845649231/" target="_blank">
                             <i className="fa-brands fa-linkedin fa-4x"></i>
                         </a>
                     </div>

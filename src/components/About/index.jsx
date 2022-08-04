@@ -12,8 +12,15 @@ function About() {
                     <div className="card-body pb-0">
                         <h5 className="card-title">About Me</h5> 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nisi enim aspernatur inventore rerum magnam officiis reiciendis, atque molestiae unde quam, excepturi voluptatum sapiente suscipit reprehenderit modi mollitia nemo dicta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur earum voluptatibus quam aliquam ad esse autem magni eum corrupti, repellendus fuga debitis reprehenderit sunt aperiam quae vitae ut inventore veniam!
+                        I'm a Full Stack Web Developer with a Cardiology Technologist background.  
+                        I’ve received a certificate for completing the Carleton university, 24 week, web developer bootcamp.  
+                        Working in medical diagnostic testing for a decade has given me high level skills in adaptability, critical thinking, problem solving, analysing/interpreting data, precision quality work and a perpetual learning mindset.
+                        My experience with programming pacemakers has given me an appreciation for algorithms and parameter settings.  
+                        In my latest project, I was the bridge between back-end and front-end.  
+                        My teammates would often come to me and trust me to solve problems on both ends.  
+                        I’m skilled in JavaScript, HTML/CSS, ReactJS, NodeJS, MySQL, MongoDB, etc.  
+                        JavaScript code definitely fascinates me.  It engages me in learning new and more efficient ways of coding and solving problems.  
+                        I’m eager to leverage and develop my skills as part of a quality-driven team to build better web experiences.  
                         </p>  
                     </div>
                 </div>
