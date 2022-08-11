@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 
 function ContactForm() {
 
@@ -9,32 +10,49 @@ function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
 
 
-    const handleChange = (e) => {
-        if (e.target.name === 'email') {
-          const isValid = validateEmail(e.target.value);
-          if (!isValid) {
-            setErrorMessage('Your email is invalid.');
-          } else {
-            setErrorMessage('');
-          }
-        } else {
-          if (!e.target.value.length) {
-            setErrorMessage(`${e.target.name} is required.`);
-          } else {
-            setErrorMessage('');
-          }
-        }
-      };
-    // console.log(formState);
-
     const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!errorMessage) {
-          setFormState({ [e.target.name]: e.target.value });
-          console.log('Form', formState);
-        }
-      };
+      e.preventDefault();
+      if (!errorMessage) {
+        emailjs.send(
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          formState, process.env.REACT_APP_EMAILJS_USER_ID
+        )
+        .then((result) => {
+          console.log(result.text);
+          setFormState({
+            name: '',
+            email: '',   
+            message: ''
+          })
+          e.target.reset()
+        }, (error) => {
+          console.log(error.text);
+        });
+      }
+    };
+  
 
+    const handleChange = (e) => {
+      if (e.target.name === 'email') {
+        const isValid = validateEmail(e.target.value);
+        if (!isValid) {
+          setErrorMessage('Your email is invalid.');
+        } else {
+          setErrorMessage('');
+        }
+      } else {
+        if (!e.target.value.length) {
+          setErrorMessage(`${e.target.name} is required.`);
+        } else {
+          setErrorMessage('');
+        }
+      }
+      if (!errorMessage) {
+        setFormState({ ...formState, [e.target.name]: e.target.value });
+        console.log('Handle Form', formState);
+      }
+    };
     return (
         <section className="container-fluid">
             <div className="row justify-content-center mx-2 my-5">

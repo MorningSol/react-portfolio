@@ -13,7 +13,7 @@ const projects = [
     {
         id: 'BB',
         title: 'Books and Beans',
-        tech: 'JS/CSS Bootstrap/Node/Bcrypt/Mysql2 Sequelize/Express(Session/Handlebars',
+        tech: 'JS/CSS Bootstrap/Node/Bcrypt/Mysql2 Sequelize/Express(Session/Handlebars)',
         github: 'https://github.com/haleytelega/Book-Beans',
         deployed: 'https://book-and-beans.herokuapp.com/',
     },
